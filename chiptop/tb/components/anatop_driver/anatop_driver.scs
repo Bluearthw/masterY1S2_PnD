@@ -1,0 +1,11 @@
+// ANATOP Driver
+simulator lang=spectre
+
+subckt anatop_driver (out)
+  src (out 0) vsource type=sine sinedc=0.6 ampl=0.6 freq=10k ampl2=0.1 freq2=30k
+ends anatop_driver
+
+amsd {
+  portmap subckt=anatop_driver
+  config cell=anatop_driver use=spice
+}

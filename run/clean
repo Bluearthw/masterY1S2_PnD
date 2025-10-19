@@ -1,0 +1,3 @@
+rm -rf *.log *.history *.trn *.lsn *.dsn *.key *.shm *.meas0 *.mt0
+rm -rf xcelium.d SpectreNetlister.d .simvision worklib logs_* .tmp_* genus.*
+rm -rf logs/* fv synthesis

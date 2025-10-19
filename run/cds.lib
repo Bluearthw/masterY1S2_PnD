@@ -1,0 +1,11 @@
+# This file is used by Cadence software to link the PDK to the open session.
+# When loaded correctly you should be able to find models in the library manager.
+
+# General/Standard libraries supplied by Cadence and MICAS
+SOFTINCLUDE /esat/micas-data/software/Cadence/ic_23.10.020/share/cdssetup/cds.lib
+
+# tsmc65 PDK
+DEFINE tsmcN65 $PDK_DIR/tsmcN65/
+
+# Our design library
+DEFINE gmsk $WORK_DIR/analog

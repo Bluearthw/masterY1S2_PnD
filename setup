@@ -1,0 +1,18 @@
+# Project Setup Source File
+
+# define environment variables
+export WORK_DIR=$(dirname $(realpath "$BASH_SOURCE"))
+export PDK_DIR="/users/micas/micas/design/tsmc65_students/PDK"
+
+# setup Virtuoso Studio
+source /users/micas/micas/design/scripts/ic_23.10.020.rc
+export CDS_LOG_PATH="${WORK_DIR}/run"
+export CDS_LIC_FILE=27002@license-extern.esat.kuleuven.be
+# setup Spectre
+source /users/micas/micas/design/scripts/spectre_23.10.242.rc
+
+# setup Xcelium
+source /users/micas/micas/design/scripts/xcelium_23.09.008.rc
+
+# setup Genus
+source /users/micas/micas/design/scripts/genus_21.17.rc

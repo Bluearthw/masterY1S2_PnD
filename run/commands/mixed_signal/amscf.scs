@@ -1,0 +1,13 @@
+# This file controls the analog side of the simulation.
+# First, collect all the analog netlists needed for you hierarchy.
+# Then, configure the analysis driving the analog simulation.
+
+include "$WORK_DIR/run/anatop.scs"
+
+amsd {
+  ie vsup=1.2
+  portmap subckt=anatop
+  config inst=chiptop_tb.i_chiptop.i_anatop use=spice
+}
+
+mytran tran stop=1ms

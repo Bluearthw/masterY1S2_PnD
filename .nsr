@@ -1,0 +1,4 @@
+# Since our project is being backed-up by the gitlab server, there is no need for it to be backed by Networker (nsr).
+# This file instructs to skip backup (of both data & filenames) recursively from this directory onwards.
+always: .nsr
++skip: * .?*
