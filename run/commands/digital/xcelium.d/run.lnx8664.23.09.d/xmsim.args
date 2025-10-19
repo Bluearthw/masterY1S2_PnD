@@ -1,0 +1,24 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
++test_sequence=1
++input_file=/esat/studscratch/r0927191/gmsk-project/gmsk-group-3/digital/tb/cosx0p25m7p5m12bit.txt
+-gui
+-MESSAGES
++EMGRLOG
+xrun.log
+-XLSTIME
+1742746101
+-XLKEEP
+-XLMODE
+./xcelium.d/run.lnx8664.23.09.d
+-RUNMODE
+-CDSLIB
+./xcelium.d/run.lnx8664.23.09.d/cds.lib
+-HDLVAR
+./xcelium.d/run.lnx8664.23.09.d/hdl.var
+-XLNAME
+xrun
+-XLVERSION
+"TOOL:	xrun(64)	23.09-s008"

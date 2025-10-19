@@ -1,0 +1,1 @@
+envSetVal("spectre.envOpts" "setTopLevelAsSubckt" 'boolean t)

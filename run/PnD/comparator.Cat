@@ -1,0 +1,6 @@
+TDMCHECKPOINT="1.0"
+PnD/comparator_v1 type="cell"
+PnD/comparator_v1_Tran_TB type="cell"
+PnD/comparator_v2 type="cell"
+PnD/comparator_v2_Tran_TB type="cell"
+keepEmptyCategory type="unknown"

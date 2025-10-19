@@ -1,0 +1,12 @@
+xrun \
+  -sv \
+  -gui \
+  -debug \
+  -linedebug \
+  +test_sequence=1 \
+  +input_file=$WORK_DIR/digital/tb/adc_input.txt \
+  $WORK_DIR/digital/rtl/downmixer/downmixer.v \
+  $WORK_DIR/digital/rtl/mixer/mixer.v \
+  $WORK_DIR/digital/tb/downmixer_test.v \
+  -f $WORK_DIR/digital/rtl/cic/cic.f \
+  -f $WORK_DIR/digital/rtl/dds/dds_cordic.f \

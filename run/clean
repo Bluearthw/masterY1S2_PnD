@@ -1,0 +1,2 @@
+rm -rf *.log *.history *.trn *.lsn *.dsn *.key *.shm *.meas0 *.mt0 *.vcd *.dump
+rm -rf xcelium.d SpectreNetlister.d .simvision worklib logs_* .tmp_*

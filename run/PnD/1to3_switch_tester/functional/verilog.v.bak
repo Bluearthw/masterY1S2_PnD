@@ -1,0 +1,49 @@
+//Verilog HDL for "PnD", "1to3_switch_tester" "functional"
+
+
+module \1to3_switch_tester  ( 
+							input clk,
+							output o_vin_ctrl, o_vref_ctrl  );
+
+	reg [1:0] state_cur = 2'd0;
+	reg [1:0] state_nxt;
+
+	reg vin_ctrl = 1;
+	reg vref_ctrl = 1;
+
+	always@(posedge clk)begin
+		state_cur <= state_nxt;
+	end
+
+	always@(*) begin
+		case(state_cur)
+			2'd0:begin
+				state_nxt <= 2'd1;
+				vin_ctrl <= 1;
+				vref_ctrl <= 0;
+			end
+
+			2'd1:begin
+				state_nxt <= 2'd2;
+				vin_ctrl <= 0;
+				vref_ctrl <= 0;
+			end
+
+			2'd2:begin
+				state_nxt <= 2'd0;
+				vin_ctrl <= 0;
+				vref_ctrl <= 0;
+			end
+
+			default: begin
+				state_nxt <= 0;
+				vin_ctrl <= 1;
+				vref_ctrl <= 0;
+			end
+		endcase
+	end
+
+	assign o_vin_ctrl = vin_ctrl;
+	assign o_vref_ctrl = vref_ctrl;
+
+endmodule

@@ -1,0 +1,20 @@
+# Temporary and log files
+*.log
+*.tmp
+**/log
+**/tmp
+
+# Everything in the run directory except for commands/, clean and cds.lib
+/run/*
+!/run/PnD
+!/run/commands/
+!/run/clean
+!/run/cds.lib
+
+
+# simulation files ignored
+#*.state
+#*.db
+#*.rdb
+# Cadence files
+*.cdslck

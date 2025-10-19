@@ -1,0 +1,16 @@
+$WORK_DIR/digital/rtl/downmixer/downmixer_recovery.sv
+$WORK_DIR/digital/rtl/downmixer/hamming_filter.v
+$WORK_DIR/digital/rtl/mixer/mixer.v
+$WORK_DIR/digital/rtl/cic/cic.v
+$WORK_DIR/digital/rtl/cic/comb.v
+$WORK_DIR/digital/rtl/cic/decimation.v
+$WORK_DIR/digital/rtl/cic/integrator.v
+$WORK_DIR/digital/rtl/dds/dds_cordic.v
+$WORK_DIR/digital/rtl/dds/cordic_advanced.v
+$WORK_DIR/digital/rtl/demod/demod_gmsk.v
+$WORK_DIR/digital/rtl/demod/cordic_vector.v
+$WORK_DIR/digital/rtl/demod/lp_filter_demod.v
+$WORK_DIR/digital/rtl/top/top.v
+$WORK_DIR/digital/rtl/zerox/clk_rec_zerox.v
+$WORK_DIR/digital/rtl/decode/varicode_decoder.v
+$WORK_DIR/digital/rtl/decode/varicode_lut.v

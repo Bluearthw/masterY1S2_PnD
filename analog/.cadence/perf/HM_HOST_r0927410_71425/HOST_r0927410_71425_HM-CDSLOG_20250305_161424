@@ -1,0 +1,86 @@
+\# Program start time:     UTC 2025.03.05 15:14:21.326
+\# Local time: GMT+01:00 (UTC+01:00) 2025.03.05 16:14:21.326
+\o Program:		@(#)$CDS: virtuoso version IC23.1-64b 09/20/2023 08:29 (cpgbld16) $
+\o Hierarchy:		/esat/micas-data/software/Cadence/ic_23.10.020/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC23.1-64b.ISR2.29  (64-bit addresses)
+\# Command line:	/esat/micas-data/software/Cadence/ic_23.10.020/tools/dfII/bin/64bit/virtuoso $
+\# Host name (type):	pc-klas3-14.esat.kuleuven.be (x86_64)
+\# Operating system:	Linux 5.14.0-503.26.1.el9_5.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Feb 19 16:28:19 UTC 2025
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:1 (1920x1080)
+\# Available geometry:			TL(0:32) BR(1919:1079)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x3600000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        704 MB
+\# Available memory:	     41,383 MB
+\# System memory:	     48,245 MB
+\# Maximum memory size:	     47,705 MB
+\# Max mem available:	     41,546 MB
+\# Initial memory used:	        163 MB
+\#        process size:	      1,478 MB
+\# Thread usage limits (effective/default):	maxthreads 5166/5166 maxload 12.00/12.00
+\# Qt version:		5.15.9
+\# Window Manager:	GNOME Shell
+\# User Name:		r0927410
+\o Working Directory:	pc-klas3-14.esat.kuleuven.be:/esat/studscratch/r0927410/gmsk-group-3/analog
+\# Process Id:		71425
+\o 
+\o COPYRIGHT (C) 1992-2023  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2023  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading layers.cxt 
+\o Loading drv.cxt 
+\o Loading ams.cxt 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o Loading sipLayout.cxt 
+\# [16:14:21.502137] Configured Lic search path (23.02-s003): /esat/micas-data/software/Cadence/ic_23.10.020/share/license/license.dat
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+\# Memory report: using         284 MB, process size 1,666 MB at UTC 2025.03.05 15:14:23.706
+\p > 
+\o Loading tilp.cxt 
+\o Loading validator.cxt 
+\o Loading vrf.cxt 
+\o Loading multiTechPlugin.cxt 
+\o Loading exportDie.cxt 
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\o The Health Monitor tool is installed. You can access it from CIW - Tools - Diagnostic Center or use the shell command 'cdsPerfDiag -p 71425' to open it when Virtuoso freezes.
+\o Loading diagCenter.cxt 
+\# (PerfDiag): Use backtrace from GLIBC.
+\o 2025/03/05 16:14:23 System is not a supported distribution
+\o 2025/03/05 16:14:23 An error occurred. We don't recognize OS 
+\o 2025/03/05 16:14:23 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+\o 2025/03/05 16:14:23 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+\o 2025/03/05 16:14:23 System is not a supported distribution
+\o 2025/03/05 16:14:23 An error occurred. We don't recognize OS 
+\o 2025/03/05 16:14:23 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+\o 2025/03/05 16:14:23 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>

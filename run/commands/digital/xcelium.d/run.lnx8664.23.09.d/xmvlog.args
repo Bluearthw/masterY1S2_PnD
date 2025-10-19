@@ -1,0 +1,24 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-XLMODE
+./xcelium.d/run.lnx8664.23.09.d
+-RUNMODE
+-sv
+-LINEDEBUG
+/esat/studscratch/r0927191/gmsk-project/gmsk-group-3/digital/tb/cic_test.sv
+/esat/studscratch/r0927191/gmsk-project/gmsk-group-3/digital/rtl/cic/cic.v
+/esat/studscratch/r0927191/gmsk-project/gmsk-group-3/digital/rtl/cic/comb.v
+/esat/studscratch/r0927191/gmsk-project/gmsk-group-3/digital/rtl/cic/decimation.v
+/esat/studscratch/r0927191/gmsk-project/gmsk-group-3/digital/rtl/cic/integrator.v
+-CDSLIB
+./xcelium.d/run.lnx8664.23.09.d/cdsrun.lib
+-HDLVAR
+./xcelium.d/run.lnx8664.23.09.d/hdlrun.var
+-no_analogsolver
+-MESSAGES
+-UPDATE
+-XLLIBSTORE
+./xcelium.d/run.lnx8664.23.09.d/xllibs
+-ALLOWUNBOUND

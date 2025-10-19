@@ -1,0 +1,5 @@
+cd ..
+source setup
+cd run
+source commands/mixed_signal/run_netlister.sh
+

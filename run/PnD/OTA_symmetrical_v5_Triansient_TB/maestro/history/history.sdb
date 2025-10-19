@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<setupdb version="7">history
+	<active>Active Setup</active>
+	<history>History
+		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
+			<timestamp>May 7 16:30:27 2025</timestamp>
+			<uuid>{afdfe522-f90f-49e1-b0f1-c18804153934}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/esat/studscratch/r0927410/gmsk-group-3/run/PnD/OTA_symmetrical_v5_Triansient_TB/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/esat/studscratch/r0927410/gmsk-group-3/run/PnD/OTA_symmetrical_v5_Triansient_TB/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/users/students/r0927410/simulation/PnD/OTA_symmetrical_v5_Triansient_TB/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/PnD/OTA_symmetrical_v5_Triansient_TB/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+	</history>
+</setupdb>

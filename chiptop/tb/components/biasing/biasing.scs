@@ -1,0 +1,12 @@
+// BIASING block
+
+subckt biasing (vdd vss comp_ref)
+  vdd (vdd 0) vsource type=dc dc=1.4
+  vss (vss 0) vsource type=dc dc=0
+  comp_ref (comp_ref 0) vsource type=dc dc=0.681
+ends biasing
+
+amsd {
+  portmap subckt=biasing
+  config cell=biasing use=spice
+}

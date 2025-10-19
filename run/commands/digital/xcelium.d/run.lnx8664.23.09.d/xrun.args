@@ -1,0 +1,13 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-sv
+-gui
+-debug
+-linedebug
++test_sequence=1
++input_file=/esat/studscratch/r0927191/gmsk-project/gmsk-group-3/digital/tb/cosx0p25m7p5m12bit.txt
+/esat/studscratch/r0927191/gmsk-project/gmsk-group-3/digital/tb/cic_test.sv
+-f
+/esat/studscratch/r0927191/gmsk-project/gmsk-group-3/digital/rtl/cic/cic.f

@@ -1,0 +1,6 @@
+cd ..
+
+source setup
+
+cd $WORK_DIR/run/
+virtuoso &

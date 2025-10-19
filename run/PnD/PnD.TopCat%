@@ -1,0 +1,8 @@
+TDMCHECKPOINT="1.0"
+PnD/DAC.Cat type="category"
+PnD/GM_ID.Cat type="category"
+PnD/LBL_mix.Cat type="category"
+PnD/VGA.Cat type="category"
+PnD/comparator.Cat type="category"
+PnD/envelop_detector.Cat type="category"
+PnD/sample_hold.Cat type="category"

@@ -1,0 +1,15 @@
+// ANATOP Driver
+simulator lang=spectre
+
+subckt anatop_driver (out)
+  *src (out 0) vsource type=sine sinedc=0.681 ampl=0.15 freq=20k
+
+  *  src (out 0) vsource type=pwl  offset=681.0m file="/users/micas/gmsk100/students/gmsk100-2025/waveforms/mixed_mode_levels/gmsk_level0_scaled_short.pwl" //very nice one with CM
+   src (out 0) vsource type=pwl  offset=681.0m file="/users/micas/gmsk100/students/gmsk100-2025/waveforms/mixed_mode_levels/gmsk_level4_scaled.pwl" //very nice one with CM
+
+ends anatop_driver
+
+amsd {
+  portmap subckt=anatop_driver
+  config cell=anatop_driver use=spice
+}

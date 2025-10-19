@@ -1,0 +1,35 @@
+// VerilogA for PnD, dac_v1, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module dac_v1(Vout, VCM, \VREF+ , \VREF- , Vin, ctrl0, ctrl1, ctrl2, ctrl3, ctrl4, ctrl5, ctrl6, ctrl7);
+output Vout;
+electrical Vout;
+input VCM;
+electrical VCM;
+input \VREF+ ;
+electrical \VREF+ ;
+input \VREF- ;
+electrical \VREF- ;
+input Vin;
+electrical Vin;
+input ctrl0;
+electrical ctrl0;
+input ctrl1;
+electrical ctrl1;
+input ctrl2;
+electrical ctrl2;
+input ctrl3;
+electrical ctrl3;
+input ctrl4;
+electrical ctrl4;
+input ctrl5;
+electrical ctrl5;
+input ctrl6;
+electrical ctrl6;
+input ctrl7;
+electrical ctrl7;
+
+
+endmodule
